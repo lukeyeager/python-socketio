@@ -2,7 +2,7 @@ Source: python-socketio
 Maintainer: Luke Yeager <luke.yeager@gmail.com>
 Section: universe/python
 Priority: optional
-Build-depends: debhelper (>= 9), dh-python, python-all, python-setuptools
+Build-depends: debhelper (>= 9), dh-python, python-all, python-setuptools, python-six, python-engineio, python-mock
 Standards-Version: 3.9.5
 Homepage: http://pythonhosted.org/python-socketio
 Vcs-Browser: https://github.com/miguelgrinberg/python-socketio

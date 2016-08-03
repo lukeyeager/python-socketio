@@ -1,0 +1,12 @@
+Allow lower version of six
+--- a/setup.py
++++ b/setup.py
+@@ -24,7 +24,7 @@
+     include_package_data=True,
+     platforms='any',
+     install_requires=[
+-        'six>=1.9.0',
++        'six>=1.5.2',
+         'python-engineio>=0.8.0'
+     ],
+     tests_require=[
