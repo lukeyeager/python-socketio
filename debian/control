@@ -12,4 +12,5 @@ Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
 Conflicts: python-socketio
 Description: Python Socket.IO server
- Python implementation of the Socket.IO realtime server.
+ This project implements a Socket.IO server that can run standalone or
+ integrated with a Python WSGI application.

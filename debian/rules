@@ -5,6 +5,3 @@ export PYBUILD_NAME=python-socketio2
 
 %:
 	dh $@ --parallel --with python2 --buildsystem=pybuild
-
-override_dh_auto_clean:
-	dh_auto_clean
