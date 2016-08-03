@@ -1,0 +1,14 @@
+Source: python-socketio
+Maintainer: Luke Yeager <luke.yeager@gmail.com>
+Section: universe/python
+Priority: optional
+Build-depends: debhelper (>= 9), dh-python, python-all, python-setuptools
+Standards-Version: 3.9.5
+Homepage: http://pythonhosted.org/python-socketio
+Vcs-Browser: https://github.com/miguelgrinberg/python-socketio
+
+Package: python-socketio
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}
+Description: Python Socket.IO server
+ Python implementation of the Socket.IO realtime server.
