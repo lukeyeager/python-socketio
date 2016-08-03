@@ -1,4 +1,4 @@
-Source: python-socketio
+Source: python-socketio2
 Maintainer: Luke Yeager <luke.yeager@gmail.com>
 Section: universe/python
 Priority: optional
@@ -7,8 +7,9 @@ Standards-Version: 3.9.5
 Homepage: http://pythonhosted.org/python-socketio
 Vcs-Browser: https://github.com/miguelgrinberg/python-socketio
 
-Package: python-socketio
+Package: python-socketio2
 Architecture: all
 Depends: ${python:Depends}, ${misc:Depends}
+Conflicts: python-socketio
 Description: Python Socket.IO server
  Python implementation of the Socket.IO realtime server.
