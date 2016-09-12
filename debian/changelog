@@ -1,5 +1,11 @@
+python-socketio2 (1.4.3-1) trusty; urgency=medium
+
+  * v1.4.3 for prod
+
+ -- Luke Yeager <luke.yeager@gmail.com>  Mon, 12 Sep 2016 15:14:48 -0700
+
 python-socketio2 (1.4.3-1ppa1) trusty; urgency=medium
 
-  * v1.4.3
+  * v1.4.3 for ppa
 
  -- Luke Yeager <luke.yeager@gmail.com>  Wed, 03 Aug 2016 10:06:40 -0700
